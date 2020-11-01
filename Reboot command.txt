@@ -1,0 +1,2 @@
+Place this line of text at the end of rootfs/etc/crontab:
+@reboot root ./home/pi/superscript &

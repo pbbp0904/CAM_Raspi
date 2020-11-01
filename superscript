@@ -1,0 +1,4 @@
+for i in `seq 1 166`; 
+do 
+	sudo raspivid -t 300000 -o /home/video.$(date "+%FT%H%M%S").h264
+done
